@@ -8,7 +8,7 @@ To add the package to target project:
   "main": "./bin/index.js"
 }
 ```
-2. Change `compilerOptions` in `tsconfig.json` to:
+2. Change `compilerOptions` in this packages `tsconfig.json` to:
 ```
 "compilerOptions": {
     "outDir": "../TARGET_PROJECT/node_modules/commons/bin",
@@ -16,7 +16,9 @@ To add the package to target project:
 }
 ```
 
-Build `commons` project:
+
+
+3. Build `commons` project:
 ```
 tsc -b
 ```
