@@ -1,7 +1,7 @@
 import express from 'express';
 import { PORT } from './config/constants';
 import { articleRouter } from './routes';
-import { CheckIsFoo } from '10min-commons';
+import { CheckIsFoo } from 'commons';
 
 const app = express();
 app.use(express.json());
